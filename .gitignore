@@ -1,0 +1,17 @@
+# Secrets -- never commit the real key
+.env
+
+# Generated at runtime
+logs/
+data/cache/
+data/plans/
+data/favourites.json
+data/search_history.json
+data/*.corrupt-*
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
