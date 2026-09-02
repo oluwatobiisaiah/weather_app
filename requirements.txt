@@ -1,0 +1,12 @@
+# Runtime
+requests>=2.31
+
+# Development
+pytest>=8.0
+
+# Optional: config.py has its own small .env parser, so this is a convenience,
+# not a requirement.
+# python-dotenv>=1.0
+
+# tkinter ships with CPython on Windows and macOS.
+# On Debian/Ubuntu:  sudo apt install python3-tk
