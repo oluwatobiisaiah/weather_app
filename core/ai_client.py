@@ -89,7 +89,7 @@ class GeminiClient:
         """Ask for the wording. Raises AIUnavailableError / AIResponseError."""
         if not self.available:
             raise AIUnavailableError(
-                "AI explanation unavailable — showing standard guidance.",
+                "AI explanation unavailable showing standard guidance.",
                 hint="Add GEMINI_API_KEY to the .env file to enable it.",
             )
 
@@ -112,7 +112,7 @@ class GeminiClient:
         return f"""You are a cautious outdoor-safety briefer.
 
 The risk verdict has ALREADY been computed and is final: {context['band']} \
-(score {context['score']:.0f}/100). Explain that verdict — do not change it.
+(score {context['score']:.0f}/100). Explain that verdict; do not change it.
 
 Location: {context['location']}
 Activity: {context['activity']}
@@ -129,7 +129,7 @@ Hourly conditions:
 {hourly_lines}
 
 Write for a general audience in clear English. Be concrete about the numbers
-above — quote them. Give at most {MAX_ADVICE} pieces of safety advice, each one
+above; quote them. Give at most {MAX_ADVICE} pieces of safety advice, each one
 an action the person can take. Give at most {MAX_PACKING} packing items, and
 every item must be justified by a condition listed above. Keep the explanation
 to about 90 words. Do not invent weather figures that are not shown here."""

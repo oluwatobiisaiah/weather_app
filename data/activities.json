@@ -1,0 +1,56 @@
+{
+  "football": {
+    "label": "Football",
+    "duration_hours": 2,
+    "daylight_only": true,
+    "weights": { "heat": 3, "cold": 1, "rain": 3, "wind": 2, "uv": 2, "storm": 5, "visibility": 1, "humidity": 2 },
+    "ideal": { "temp_c": [15, 26], "wind_kmh": 20, "precip_prob": 20, "uv": 6 },
+    "limit": { "temp_c": [5, 33], "wind_kmh": 40, "precip_prob": 70, "uv": 10 },
+    "packing": ["Studded boots", "2L of water", "Shin guards", "Spare dry shirt"]
+  },
+  "jogging": {
+    "label": "Jogging",
+    "duration_hours": 1,
+    "daylight_only": false,
+    "weights": { "heat": 4, "cold": 2, "rain": 2, "wind": 2, "uv": 3, "storm": 5, "visibility": 2, "humidity": 4 },
+    "ideal": { "temp_c": [10, 24], "wind_kmh": 25, "precip_prob": 25, "uv": 5 },
+    "limit": { "temp_c": [0, 32], "wind_kmh": 45, "precip_prob": 75, "uv": 9 },
+    "packing": ["Water bottle", "Reflective top", "Phone", "Running shoes"]
+  },
+  "farming": {
+    "label": "Farming",
+    "duration_hours": 4,
+    "daylight_only": true,
+    "weights": { "heat": 4, "cold": 1, "rain": 1, "wind": 2, "uv": 4, "storm": 5, "visibility": 1, "humidity": 3 },
+    "ideal": { "temp_c": [16, 30], "wind_kmh": 25, "precip_prob": 60, "uv": 7 },
+    "limit": { "temp_c": [5, 36], "wind_kmh": 45, "precip_prob": 95, "uv": 11 },
+    "packing": ["Wide-brim hat", "Long sleeves", "4L of water", "Boots", "Work gloves"]
+  },
+  "picnic": {
+    "label": "Picnic",
+    "duration_hours": 3,
+    "daylight_only": true,
+    "weights": { "heat": 3, "cold": 3, "rain": 5, "wind": 3, "uv": 2, "storm": 5, "visibility": 1, "humidity": 2 },
+    "ideal": { "temp_c": [18, 28], "wind_kmh": 15, "precip_prob": 10, "uv": 6 },
+    "limit": { "temp_c": [8, 34], "wind_kmh": 30, "precip_prob": 45, "uv": 10 },
+    "packing": ["Ground mat", "Cool box", "Shade umbrella", "Wipes", "Rubbish bag"]
+  },
+  "travelling": {
+    "label": "Travelling",
+    "duration_hours": 3,
+    "daylight_only": false,
+    "weights": { "heat": 1, "cold": 2, "rain": 3, "wind": 3, "uv": 1, "storm": 5, "visibility": 5, "humidity": 1 },
+    "ideal": { "temp_c": [5, 30], "wind_kmh": 25, "precip_prob": 40, "uv": 8 },
+    "limit": { "temp_c": [-5, 38], "wind_kmh": 55, "precip_prob": 90, "uv": 11 },
+    "packing": ["Charged power bank", "Water and snacks", "Offline map", "Light jacket"]
+  },
+  "outdoor_event": {
+    "label": "Outdoor event",
+    "duration_hours": 4,
+    "daylight_only": false,
+    "weights": { "heat": 3, "cold": 3, "rain": 5, "wind": 4, "uv": 2, "storm": 5, "visibility": 2, "humidity": 2 },
+    "ideal": { "temp_c": [16, 28], "wind_kmh": 15, "precip_prob": 15, "uv": 6 },
+    "limit": { "temp_c": [6, 34], "wind_kmh": 35, "precip_prob": 55, "uv": 10 },
+    "packing": ["Weighted canopy anchors", "Wet-weather cover for equipment", "Seating cushions", "Extension leads taped down"]
+  }
+}
