@@ -8,7 +8,6 @@ locations and past searches.
 Weather comes from [Open-Meteo](https://open-meteo.com) (no API key). The written explanation comes
 from Gemini, and the app works completely without it.
 
-See [IMPLEMENTATION_PLAN.md](IMPLEMENTATION_PLAN.md) for the design this was built from.
 
 ---
 
